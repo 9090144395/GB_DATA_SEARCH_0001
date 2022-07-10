@@ -74,6 +74,7 @@ print('________________________________________________________')
 print()
 
 print('Поиск вакансий, в которых стоимость более 100 000..')
+print()
 def search_in_db(price):
     condition = {'$gte': price}
     search = db_collection.find(
